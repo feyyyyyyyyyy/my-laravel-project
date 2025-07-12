@@ -28,17 +28,9 @@
         </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container mt-5">
-        <h1>Welcome to My Laravel Project!</h1>
-        <p class="lead">
-            This is your new home page with a menu. You can customize the menu and content as you wish.
-        </p>
-        <hr>
-        <p>
-            Edit <code>resources/views/home.blade.php</code> to change the menu or page content.
-        </p>
-    </div>
+    <a href="{{ route('products.index') }}" class="btn btn-primary btn-sm d-flex justify-content-center align-items-center" style="height: 200px; font-size:50px; color:aliceblue;">Products</a>
+    <a href="{{ route('categories.index') }}" class="btn btn-info btn-sm d-flex justify-content-center align-items-center" style="height: 200px; font-size:50px; color:aliceblue;">Categories</a>
+    <a href="{{ route('branches.index') }}" class="btn btn-success btn-sm d-flex justify-content-center align-items-center" style="height: 200px; font-size:50px; color:aliceblue;">Branches</a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
